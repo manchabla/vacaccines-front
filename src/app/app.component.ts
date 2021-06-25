@@ -11,9 +11,15 @@ export class AppComponent {
 
   vacaccines1: Array<VacaccinesPanel> = [
     { name: "H1N1", date: new Date() },
-    { name: "Neumococo", date: new Date() },
     { name: "Rotavirus", date: new Date() },
-    { name: "Influenza", date: new Date() },
+    { name: "VIH", date: new Date() },
+  ]
+  vacaccines2: Array<VacaccinesPanel> = [
+    { name: "Neumococo", date: new Date() },
     { name: "BCG", date: new Date() }
+  ]
+  vacaccines3: Array<VacaccinesPanel> = [
+    { name: "Influenza", date: new Date() },
+    { name: "Pentavalente", date: new Date() }
   ]
 }

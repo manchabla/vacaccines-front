@@ -1,3 +1,15 @@
 .header__form {
   display: flex;
+  align-items: center;
+}
+
+.header__title{
+  font-size: 40px;
+  font-weight: 500;
+  padding: 20px 0px;
+  margin: 0;
+}
+
+.header__subtitle{
+  margin: 0 10px 0 0;
 }
