@@ -1,4 +1,8 @@
 <div class="app-component">
   <app-header></app-header>
-  <app-panel></app-panel>
+  <div class="app-component__panels-container">
+    <app-panel color="#43BDDB" title="Vacunas administradas" [vaccacines]="vacaccines1"></app-panel>
+    <app-panel color="#FF7A6F" title="Vacunas no administradas" [vaccacines]="vacaccines1"></app-panel>
+    <app-panel color="#28C494" title="Vacunas por administrar" [vaccacines]="vacaccines1"></app-panel>
+  </div>
 </div>

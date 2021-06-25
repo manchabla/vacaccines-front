@@ -1,0 +1,22 @@
+.panel__container {
+  width: 500px;
+}
+
+.panel__vacaccine-container {
+  align-items: center;
+  margin: 15px 10px;
+  padding: 5px;
+  border: solid 4px #ececec;
+  border-radius: 10px;
+}
+
+.panel__vacaccine-title {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 15px 10px
+}
+
+.panel__vacaccine-date,
+.panel__vacaccine-name {
+  margin: 0 5px;
+}

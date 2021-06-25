@@ -1,1 +1,8 @@
-<p>panel works!</p>
+<div class="panel__container" #panelEl>
+    <h3 class="panel__vacaccine-title">{{title}}</h3>
+
+    <div class="panel__vacaccine-container" *ngFor="let vacaccine of vaccacines">
+        <h3 class="panel__vacaccine-name">Vacuna: {{vacaccine.name}}</h3>
+        <h5 class="panel__vacaccine-date">Fecha de inoculación: {{vacaccine.date |date:'dd/MM/yy'}}</h5>
+    </div>
+</div>
